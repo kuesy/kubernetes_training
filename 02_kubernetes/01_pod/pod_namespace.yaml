@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: my-first-pod
+  name: nginx-pod2
   namespace: hogemi ## your name
 spec:
   containers:
     - name: nginx
-      image: nginx:latest
+      image: nginx

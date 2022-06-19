@@ -1,13 +1,13 @@
-# 02_web_server_nodejs
+# 02_web_server_app
 1. Make docker image
 ```
-$ docker build -t nodejs_test ./
+$ docker build -t app_test ./
 ```
 
 2. Run docker container
 
 ```
-$ docker run -p 3000:3000 -d nodejs_test
+$ docker run -p 3000:3000 -d app_test
 ```
 
 3. Check
@@ -25,5 +25,5 @@ $ docker rm <<container id>>
 
 5. Delete docker image
 ```
-$ docker rmi nodejs_test
+$ docker rmi app_test
 ```
